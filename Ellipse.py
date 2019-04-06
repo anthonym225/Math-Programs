@@ -17,13 +17,16 @@ if underX > underY:
     b2 = underY
     a = sympy.sqrt(a2)
     b = sympy.sqrt(b2)
+    c2 = a2 - b2
+    c = sympy.sqrt(c2)
+    foci = "The foci are at: ({}, {} + {}) and ({}, {} - {})".format(h, k, c, h, k, c)
+    print(foci)
 else:
     a2 = underY
     b2 = underX
     a = sympy.sqrt(a2)
     b = sympy.sqrt(b2)
-
-c2 = a2 - b2
-c = sympy.sqrt(c2)
-foci = "The foci are at: ({}, {} + {}) and ({}, {} + {})".format(h, k, c, h, k, c)
-print(foci)
+    c2 = a2 - b2
+    c = sympy.sqrt(c2)
+    foci = "The foci are at: ({} + {}, {}) and ({} - {}, {})".format(h, c, k, h, c, k)
+    print(foci)
