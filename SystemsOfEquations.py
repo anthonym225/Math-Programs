@@ -33,7 +33,7 @@ num1l3 = int(num9)
 num10 = input ("Enter the second number of the third line: ")
 num2l3 = int(num10)
 
-num11 = input ("Enter the third number of the tihrd line: ")
+num11 = input ("Enter the third number of the third line: ")
 num3l3 = int(num11)
 
 num12 = input ("Enter the solution of the third line: ")
