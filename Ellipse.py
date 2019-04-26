@@ -11,7 +11,7 @@ underX = float(input("What is the value under x?: "))
 k = float(input("What is the k value?: "))
 underY = float(input("What is the value under y?: "))
 
-
+# Horizontal or Vertical Major Axis
 if underX > underY:
     majorAxis = "The Major Axis follows the X axis"
     a2 = underX
